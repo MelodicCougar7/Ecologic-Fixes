@@ -29,13 +29,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
-@Mod(Ecologic_fixes.MODID)
-public class Ecologic_fixes {
-    // don't even need this
+@Mod(Ecologic_Fixes.MODID)
+public class Ecologic_Fixes {
+    // don't even need this (referring to the logger)
     public static final String MODID = "ecologic_fixes";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Ecologic_fixes() {
+    public Ecologic_Fixes() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
     }

@@ -145,7 +145,7 @@ dependencies {
     compileOnly("curse.maven:ecologics-570463:6733908")
     runtimeOnly("curse.maven:ecologics-570463:6733908")
 
-    implementation fg.deobf("curse.maven:ecologics-570463:6733908")
+    implementation ("curse.maven:ecologics-570463:6733908")
 
     //implementation files("libs/ecologics-forge-1.20.1-2.2.2.jar")
     //compileOnly files("libs/ecologics-forge-1.20.1-2.2.2.jar")
