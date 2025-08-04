@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.github.melodiccougar7.ecologic_fixes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ecologic_fixes.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
