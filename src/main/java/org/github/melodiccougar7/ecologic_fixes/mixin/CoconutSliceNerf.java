@@ -22,6 +22,7 @@ public class CoconutSliceNerf extends Item {
     /**
      * @author MC7
      * @reason Terribly sorry, but some things just need to work before they are refactored later
+     * Many thanks to ActiveRadar for proofing out the code and helping me to get it to compile!
      */
 
     @Overwrite
